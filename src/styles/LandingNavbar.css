@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.landing-navbar {
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  /* height: 90px; */
+  z-index: 1;
+
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.landing-brand {
+  font-family: "Bebas Neue", cursive;
+  color: #e50914;
+  left: 20px;
+}
+
+.language {
+  border: 1px solid white;
+  font-size: 15px;
+  background-color: transparent;
+  border-radius: 5px;
+  color: white;
+  padding: 8px 30px;
+  -webkit-appearance: none !important;
+}
+
+.login-btn {
+  border: 1px solid transparent !important;
+  background-color: #e50914 !important;
+  padding: 8px 18px !important;
+  border-radius: 5px !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  color: white !important;
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out !important;
+}
+
+.login-btn:hover {
+  cursor: pointer !important;
+  background-color: white !important;
+  border-color: white !important;
+  color: #e50914 !important;
+}

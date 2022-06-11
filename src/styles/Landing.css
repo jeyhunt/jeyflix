@@ -1,0 +1,79 @@
+.bg {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/c16cf196-e89e-4c46-8cc7-f2eca6fb0762/e824bc6d-ee47-44ff-af32-da3ec40c1d48/ID-en-20220103-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.landing-container {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.2) 35%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -96px;
+}
+
+.page-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.title-head {
+  font-size: 60px;
+  font-weight: 700px;
+  text-align: center;
+}
+
+.sub-title {
+  font-size: 32px;
+  text-align: center;
+}
+
+.isi {
+  font-size: 16px;
+  text-align: center;
+}
+
+.email {
+  border: 1px solid transparent;
+  background-color: white;
+  padding: 13px 45px;
+  border-radius: 0px;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+}
+
+.email-btn {
+  margin-left: -4px;
+  border: 1px solid transparent;
+  background-color: #e50914;
+  padding: 13px 45px;
+  border-radius: 0px;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+}
+
+.email-btn:hover {
+  cursor: pointer;
+  background-color: #ff2800;
+  color: white;
+}
